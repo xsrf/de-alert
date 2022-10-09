@@ -55,10 +55,10 @@ Dreistellig vs. Vierstellig
 ---------------------------
 Es hält sich hartnäckig das Gerücht dass Deutschland ja mit den vierstelligen IDs völlig inkompatibel ist, da die ja viel zu neu sind.
 Das das nicht stimmen kann beweist ja schon ETSI TS 123 041 mit CMAS/EU-Alert.
-Die Cell Broadcast MessageID wird schon immer mit zwei Byte angegeben. Es sind also 65536 Message IDs möglich. Eine technische Limitierung auf 999 gibt es nicht - das wäre in einer digitalen Welt die sich nicht um das Dezimalsystem schwert auch eine sehr seltsame Grenze.
+Die Cell Broadcast MessageID wird schon immer mit zwei Byte angegeben. Es sind also 65536 Message IDs möglich. Eine technische Limitierung auf 999 gibt es nicht - das wäre in einer digitalen Welt die sich nicht um das Dezimalsystem schert auch eine sehr seltsame Grenze.
 Vierstellige Message IDs sind nicht neuer als die Dreistelligen.
 
-Begünstigt wird dieses Gerücht aber durch tatsächlich existierende Beschränkungen einiger weniger alter Mobiltelefone. So erlaubt z.B. Nokia OS (z.B. Nokia 3310, Baujahr 2000) nur das manuelle Abo von Message IDs von 1-999, weil das Eingabefeld schlicht nur drei Stellen annimmt. Vermutlich ein simpler Design-Fehler.
+Begünstigt wird dieses Gerücht aber durch tatsächlich existierende Beschränkungen einiger weniger alter Mobiltelefone. So erlaubt z.B. Nokia OS (z.B. Nokia 3310, Baujahr 2000) nur das manuelle Abo von Message IDs von 1-999, weil das Eingabefeld schlicht nur drei Stellen annimmt. Vermutlich eine simple Design-Limitierung.
 
 iOS und DE-Alert
 ================
@@ -102,3 +102,27 @@ EU-Alert Level 1-3 werden also von allen Android-Versionen untertstützt. Der ne
 Android ist nicht Android
 -------------------------
 Das Problem ist, dass Android nicht gleich Android ist. Prinzipiell kann und muss jeder Mobilgerätehersteller Android für sein Gerät anpassen und kann dabei auch die Software und Konfiguration zum Empfang der Cell Broadcasts und Warnmeldungen anpassen.
+
+2G, 3G, 4G und 5G
+-----------------
+[3GPP TS 23.041 / ETSI TS 123 041](https://portal.3gpp.org/desktopmodules/Specifications/SpecificationDetails.aspx?specificationId=748) gilt für Mobilfunk-Generationen 2G bis 5G und somit sollte es eigentlich keinen Unterschied machen, welche Mobilfunkgeneration zum Einsatz kommt, auch wenn die Art und weise wie CellBroadcasts übertragen werden sich je Mobilfunk-Generation auf Transportebene unterscheidet. 
+
+Allerdings unterscheidet Android bei der Konfiguration der CellBroadcast Message-IDs für Warnsysteme zwischen `gsm` und `cdma`, wie [hier in der Standard-Konfiguration](https://cs.android.com/android/platform/superproject/+/android-13.0.0_r1:packages/apps/CellBroadcastReceiver/res/values/config.xml;l=120?q=rat%3Dcdma) zu erkennen ist. Verstanden habe ich das bisher nicht.
+
+Updates
+-------
+Wenn ich Googles [Dokumentation zu CellBroadcast](https://source.android.com/docs/core/architecture/modular-system/cellbroadcast#module-format) richtig verstehe, wurde die CellBroadcastReceiver App bis Android 10 als Sourcecode bereitgestellt und durch die Smartphone-Hersteller beim Erzeugen der Firmware compiliert und signiert. Daher können nur die Smartphone-Hersteller Updates für die App ausliefern.
+Ab Android 11 wird die App fertig compiliert und von Google signiert ausgeliefert und Smartphone-Hersteller integrieren sie einfach nur. Damit kann Google später signierte updates ausliefern.
+
+Das bedeutet aber auch dass man auf gerooteten Geräten relativ simpel die App austauschen und aktualisieren könnte. Ebenso könnten Smartphone-Hersteller Updates der App liefern ohne ganze System-Images neu bauen zu müssen. Die App muss ja nur richtig signiert sein.
+
+Ausserdem gibt es die Möglichkeit die CellBroadcastReceiver über [runtime resource overlays (RROs)](https://source.android.com/docs/core/architecture/rros) zu modifizieren. Damit kann man zwar nicht den Code und die Logik der App anpassen, aber die Ressourcen. Damit ist eine Anpassung der Bezeichnungen ("DE-Alert" statt "presidential Alert"), der Alarmtöne und auch der zu empfangenen Message-IDs möglich. Es können zwar keine neuen Nachrichten-Typen ergänzt werden, aber es können weitere Message-IDs in bestehenden Kategorien abonniert werden, indem die passenden Einträge der `values.xml` überlagert werden.
+
+Unter Android 8.0 (Oreo) habe ich eine Anpassung mittels RRO erfolgreich getestet: https://github.com/xsrf/android-de-alert
+
+Interessanter weise konnte ich ohne spezielle Berechtigungen oder root die Konfiguration der App unter Oreo überlagern 🤔. Unter Android 12 funktioniert das nicht, da bekomme ich einen Fehler dass die Signatur nicht passt.
+Offensichtlich ging das bis Android 10. Ab Android 11 müssen Ressourcen entweder über eine `overlayable.xml` zur Überlagerung explizit freigegeben sein, die Overlay-App muss die selbe Signatur haben, oder muss als System-App installiert sein.
+Ab Android 11 bringt der CellBroadcastReceiver eine [overlayable.xml](https://cs.android.com/android/platform/superproject/+/android-11.0.0_r1:packages/apps/CellBroadcastReceiver/res/values/overlayable.xml) mit.
+So oder so sind die Möglichkeiten durch die RROs aber begrenzt.
+
+Was ich bis heute nicht verstanden habe ist, was die App so besonders macht und warum nicht einfach jeder eine CellBroadcastReceiver App programmieren und bereitstellen kann...
