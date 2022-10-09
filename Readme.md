@@ -62,7 +62,7 @@ Begünstigt wird dieses Gerücht aber durch tatsächlich existierende Beschränk
 
 iOS und DE-Alert
 ================
-iOS unterstützt Cell Broadcast und Warnsysteme wie CMAS und EU-Alert, konfiguriert diese aber abhängig von der Länderkennung des genutzten Mobilfunknetzes. Daher funktioniert z.B. EU-Alert in den Niederlanden seit Jahren auf iOS, in Deutschland aber bisher nicht. Apple hat angekündigt EU-Alert in Deutschland ab iOS 16 zu unterstützen.
+iOS unterstützt Cell Broadcast und Warnsysteme wie CMAS und EU-Alert, konfiguriert diese aber [abhängig von der Länderkennung](https://chlosta.me/cbs-ios.html) des genutzten Mobilfunknetzes. Daher funktioniert z.B. EU-Alert in den Niederlanden seit Jahren auf iOS, in Deutschland aber bisher nicht. Apple hat angekündigt EU-Alert in Deutschland ab iOS 16 zu unterstützen.
 
 Android und DE-Alert
 ====================
