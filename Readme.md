@@ -353,6 +353,28 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "read": 1,
         "serial_number": 16608,
         "service_category": 4383
+    },
+    {
+        "_id": 1,
+        "body": "Dies ist eine Test Warnnachricht. Bitte ignorieren Sie diese. Es besteht keine Gefahr. Wenn Sie solche Nachrichten nicht empfangen wollen, dass deaktivieren Sie bitte in den Cell-Broadcast Einstellungen Ihres Endgeräts die Option \"alle Kanäle empfangen\".",
+        "cid": null,
+        "cmas_category": null,
+        "cmas_certainty": null,
+        "cmas_message_class": null,
+        "cmas_response_type": null,
+        "cmas_severity": null,
+        "cmas_urgency": null,
+        "date": 1673363217931,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "de",
+        "plmn": "26203",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 16384,
+        "service_category": 5013
     }
 ]
 ```
