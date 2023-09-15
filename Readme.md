@@ -135,7 +135,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
 ```json
 [
     {
-        "_id": 1,
         "body": "DIES IST EINE ERPROBUNG\nDi. 22.11.2022 - 17:07 Uhr - Das BBK erprobt das neue Handy-Warn-System in Ihrer Region. Es besteht keine Gefahr. Bitte ignorieren Sie die Nachricht. Mehr Infos finden Sie unter http://www.bbk.bund.de/cellbroadcast B Sollten Sie diese Nachricht erhalten, so verfügt Ihr Smartphone ggf. nicht über den aktuellen Softwarestand. Wir empfehlen daher, Ihr Endgerät auf den aktuellen Softwarestand zu prüfen. Bei Fragen hierzu wenden Sie sich bitte an Ihren Gerätehersteller.",
         "cid": null,
         "cmas_category": -1,
@@ -157,7 +156,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4380
     },
     {
-        "_id": 2,
         "body": "TEST ALERT, NATIONWIDE ALERT DAY 2022\nThu 2022/12/08 - 10:59 am - Test alert - for Deutschland - There is no danger. - Further information: https://warnung.bund.de/meldungen - Published by: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
         "cid": null,
         "cmas_category": -1,
@@ -179,7 +177,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4383
     },
     {
-        "_id": 3,
         "body": "PROBEWARNUNG, BUNDESWEITER WARNTAG 2022\nDo. 08.12.2022 - 10:59 Uhr - Probewarnung - für Deutschland - Es besteht keine Gefahr. - Weitere Infos auf https://warnung.bund.de/meldungen - Herausgegeben von: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
         "cid": null,
         "cmas_category": -1,
@@ -201,7 +198,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4370
     },
     {
-        "_id": 1,
         "body": "Dies ist eine Test Warnnachricht. Bitte ignorieren Sie diese. Es besteht keine Gefahr.",
         "cid": null,
         "cmas_category": null,
@@ -223,7 +219,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 5002
     },
     {
-        "_id": 2,
         "body": "THIS IS A TEST\nTue 2022/11/22 - 04:43 pm - BBK is testing the new mobile phone warning system in your region. There is no danger. Please ignore the message. You can find more information at http://www.bbk.bund.de/cellbroadcast B If you receive this message, your smartphone may not have the latest software version. We therefore recommend that you check your device for the latest software version. If you have any questions, please contact your device manufacturer.",
         "cid": null,
         "cmas_category": -1,
@@ -245,7 +240,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4393
     },
         {
-        "_id": 1,
         "body": "Dies ist ein Test für Cell Broadcast. Die Telekom erprobt das neue Handy-Warn-System in Ihrer Region. Es besteht keine Gefahr, daher können Sie diese Test-Nachricht ignorieren. Sie möchten keine weiteren Test-Nachrichten bekommen oder mehr Informationen? Wir helfen gern weiter: https://telekom.com/cell-broadcast 0 DE",
         "cid": null,
         "cmas_category": -1,
@@ -267,7 +261,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4380
     },
     {
-        "_id": 2,
         "body": "Dies ist ein Test für Cell Broadcast. Die Telekom erprobt das neue Handy-Warn-System in Ihrer Region. Es besteht keine Gefahr, daher können Sie diese Test-Nachricht ignorieren. Sie möchten keine weiteren Test-Nachrichten bekommen oder mehr Informationen? Wir helfen gern weiter: https://telekom.com/cell-broadcast 1 DE",
         "cid": null,
         "cmas_category": -1,
@@ -289,7 +282,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4380
     },
     {
-        "_id": 3,
         "body": "Dies ist ein Test für Cell Broadcast. Die Telekom erprobt das neue Handy-Warn-System in Ihrer Region. Es besteht keine Gefahr, daher können Sie diese Test-Nachricht ignorieren. Sie möchten keine weiteren Test-Nachrichten bekommen oder mehr Informationen? Wir helfen gern weiter: https://telekom.com/cell-broadcast 3 EN",
         "cid": null,
         "cmas_category": -1,
@@ -311,7 +303,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4393
     },
     {
-        "_id": 4,
         "body": "Dies ist ein Test für Cell Broadcast. Die Telekom erprobt das neue Handy-Warn-System in Ihrer Region. Es besteht keine Gefahr, daher können Sie diese Test-Nachricht ignorieren. Sie möchten keine weiteren Test-Nachrichten bekommen oder mehr Informationen? Wir helfen gern weiter: https://telekom.com/cell-broadcast 2 EN",
         "cid": null,
         "cmas_category": -1,
@@ -333,7 +324,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4393
     },
     {
-        "_id": 5,
         "body": "TEST ALERT, NATIONWIDE ALERT DAY 2022 Thu 2022/12/08 - 10:59 am - Test alert - for Deutschland - There is no danger. - Further information: https://warnung.bund.de/meldungen - Published by: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
         "cid": null,
         "cmas_category": -1,
@@ -355,7 +345,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4383
     },
     {
-        "_id": 1,
         "body": "Dies ist eine Test Warnnachricht. Bitte ignorieren Sie diese. Es besteht keine Gefahr. Wenn Sie solche Nachrichten nicht empfangen wollen, dass deaktivieren Sie bitte in den Cell-Broadcast Einstellungen Ihres Endgeräts die Option \"alle Kanäle empfangen\".",
         "cid": null,
         "cmas_category": null,
@@ -377,7 +366,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 5013
     },
     {
-        "_id": 2,
         "body": "Dies ist eine Test Warnnachricht. Bitte ignorieren Sie diese. Es besteht keine Gefahr. Wenn Sie solche Nachrichten nicht empfangen wollen, dass deaktivieren Sie bitte in den Cell-Broadcast Einstellungen Ihres Endgeräts die Option \"alle Kanäle empfangen\".",
         "cid": null,
         "cmas_category": null,
@@ -399,7 +387,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 5069
     },
     {
-        "_id": 3,
         "body": "bla2foo",
         "cid": null,
         "cmas_category": null,
@@ -421,7 +408,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 5001
     },
     {
-        "_id": 4,
         "body": "bla2foo",
         "cid": null,
         "cmas_category": null,
@@ -443,7 +429,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 5002
     },
     {
-        "_id": 4,
         "body": "GEFAHRENDURCHSAGE, HOCH Mo. 21.02.2023 - 10:13 Uhr - Dies ist ein Test für Cell Broadcast. Die Deutsche Telekom erprobt das neue Handy-Warn-System in Ihrer Region. Es besteht keine Gefahr. Bitte ignorieren Sie diese Test-Nachricht. Sie möchten keine weiteren Test-Nachrichten bekommen oder mehr Informationen? Wir helfen gern weiter: https://telekom.com/cell-broadcast (A)",
         "cid": null,
         "cmas_category": -1,
@@ -465,7 +450,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4380
     },
     {
-        "_id": 5,
         "body": "TEST MI. 22.02.2023 - 14:26 Uhr - Dies ist ein Test für Cell Broadcast. Die Deutsche Telekom erprobt das neue Handy-Warn-System in Ihrer Sie diese Test-Nachricht. Sie möchten keine weiteren Test-Nachrichten bekommen oder mehr Informationen? Wir helfen gern weiter: https://telekom.com/cell-broadcast",
         "cid": null,
         "cmas_category": -1,
@@ -487,7 +471,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4380
     },
     {
-        "_id": 6,
         "body": "TEST MI. 22.02.2023 - 15:18 Uhr - Dies ist ein Test für Cell Broadcast. Die Deutsche Telekom erprobt das neue Handy-Warn-System in Ihrer Region. Es besteht keine Gefahr. Bitte ignorieren Sie diese Test-Nachricht. Sie möchten keine weiteren Test-Nachrichten bekommen oder mehr Informationen? Wir helfen gern weiter: https://telekom.com/cell-broadcast",
         "cid": null,
         "cmas_category": -1,
@@ -509,7 +492,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4380
     },
     {
-        "_id": 3,
         "body": "TEST WED 2023/02/22 - 2:26 pm - This is a test for Cell Broadcast. Deutsche Telekom is testing the new cell phone warning system in your area. There is no danger. Please ignore this test message. You don't want to receive any more test messages or want more information? We are pleased to help: https://telekom.com/cell-broadcast",
         "cid": null,
         "cmas_category": -1,
@@ -531,7 +513,6 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "service_category": 4393
     },
     {
-        "_id": 4,
         "body": "TEST WED 2023/02/22 - 3:18 pm - This is a test for Cell Broadcast. Deutsche Telekom is testing the new cell phone warning system in your area. There is no danger. Please ignore this test message. You don't want to receive any more test messages or want more information? We are pleased to help: https://telekom.com/cell-broadcast",
         "cid": null,
         "cmas_category": -1,
@@ -551,6 +532,258 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "read": 1,
         "serial_number": 32400,
         "service_category": 4393
+    },
+    {
+        "body": "PROBEWARNUNG, BUNDESWEITER WARNTAG 2023\nDo. 14.09.2023 - 10:59 Uhr - Probewarnung - für Deutschland - Es besteht keine Gefahr. - Weitere Infos auf https://warnung.bund.de/m/S_jcy037ETGT - Herausgegeben von: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnze",
+        "cid": null,
+        "cmas_category": -1,
+        "cmas_certainty": -1,
+        "cmas_message_class": 0,
+        "cmas_response_type": -1,
+        "cmas_severity": -1,
+        "cmas_urgency": -1,
+        "date": 1694682080000,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "de",
+        "plmn": "",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 16800,
+        "service_category": 4370
+    },
+    {
+        "body": "TEST ALERT, NATIONWIDE ALERT DAY 2023\nThu 2023/09/14 - 10:59 am - Test alert - for Germany - There is no danger. - Further information:  by: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
+        "cid": null,
+        "cmas_category": -1,
+        "cmas_certainty": -1,
+        "cmas_message_class": -1,
+        "cmas_response_type": -1,
+        "cmas_severity": -1,
+        "cmas_urgency": -1,
+        "date": 1694682081087,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "en",
+        "plmn": "26203",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 16800,
+        "service_category": 4383
+    },
+    {
+        "body": "PROBEWARNUNG, BUNDESWEITER WARNTAG 2023\nDo. 14.09.2023 - 10:59 Uhr - Probewarnung - für Deutschland - Es besteht keine Gefahr. - Weitere Infos auf https://warnung.bund.de/m/S_jcy037ETGT - Herausgegeben von: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
+        "cid": null,
+        "cmas_category": -1,
+        "cmas_certainty": -1,
+        "cmas_message_class": 0,
+        "cmas_response_type": -1,
+        "cmas_severity": -1,
+        "cmas_urgency": -1,
+        "date": 1694682087797,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "de",
+        "plmn": "26203",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 16800,
+        "service_category": 4370
+    },
+    {
+        "body": "TEST ALERT, NATIONWIDE PRE ALERT DAY 2023 Wed 2023/09/13 - 11:00 am - Test alert - for Germany - There is no danger. - Further information: https://warnung.bund.de/m/2i_zhY4_d4sj - Published by: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
+        "cid": null,
+        "cmas_category": -1,
+        "cmas_certainty": -1,
+        "cmas_message_class": 4,
+        "cmas_response_type": -1,
+        "cmas_severity": -1,
+        "cmas_urgency": -1,
+        "date": 1694595007054,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "en",
+        "plmn": "26201",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 16912,
+        "service_category": 4393
+    },
+    {
+        "body": "TEST - This is a test for Cell Broadcast. Deutsche Telekom is testing the new cell phone warning system in your area. There is no danger. Please ignore this test message. You do not want to receive any more test messages or want more information? We are pleased to help: https://telekom.com/cell-broadcast",
+        "cid": null,
+        "cmas_category": -1,
+        "cmas_certainty": -1,
+        "cmas_message_class": 4,
+        "cmas_response_type": -1,
+        "cmas_severity": -1,
+        "cmas_urgency": -1,
+        "date": 1694595714309,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "en",
+        "plmn": "26201",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 16928,
+        "service_category": 4393
+    },
+    {
+        "body": "Dies ist ein Test für Cell Broadcast. Die Telekom erprobt das neue Handy-Warn-System in Ihrer Region. Es besteht keine Gefahr, daher können sie diese Test-Nachricht ignorieren. Sie möchten keine weiteren Test-Nachrichten bekommen oder mehr Informationen? Wir helfen gern weiter: https://telekom.com/cell-broadcast",
+        "cid": null,
+        "cmas_category": -1,
+        "cmas_certainty": -1,
+        "cmas_message_class": 4,
+        "cmas_response_type": -1,
+        "cmas_severity": -1,
+        "cmas_urgency": -1,
+        "date": 1694595753711,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "de",
+        "plmn": "26201",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 28992,
+        "service_category": 4380
+    },
+    {
+        "body": "PROBEWARNUNG, BUNDESWEITER WARNTAG 2023 Do. 14.09.2023 - 10:59 Uhr - Probewarnung - für Deutschland - Es besteht keine Gefahr. - Weitere Infos auf https://warnung.bund.de/m/S_jcy037ETGT - Herausgegeben von: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
+        "cid": null,
+        "cmas_category": -1,
+        "cmas_certainty": -1,
+        "cmas_message_class": 0,
+        "cmas_response_type": -1,
+        "cmas_severity": -1,
+        "cmas_urgency": -1,
+        "date": 1694681981519,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "de",
+        "plmn": "26201",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 16800,
+        "service_category": 4370
+    },
+    {
+        "body": "TEST ALERT, NATIONWIDE ALERT DAY 2023 Thu 2023/09/14 - 10:59 am - Test alert - for Germany - There is no danger. - Further information: https://warnung.bund.de/m/S_jcy037ETGT - Published by: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
+        "cid": null,
+        "cmas_category": -1,
+        "cmas_certainty": -1,
+        "cmas_message_class": 0,
+        "cmas_response_type": -1,
+        "cmas_severity": -1,
+        "cmas_urgency": -1,
+        "date": 1694682014757,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "en",
+        "plmn": "26201",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 16800,
+        "service_category": 4383
+    },
+    {
+        "body": "PROBEWARNUNG, BUNDESWEITER WARNTAG 2023 Do. 14.09.2023 - 10:59 Uhr - Probewarnung - für Deutschland - Es besteht keine Gefahr. - Weitere Infos auf https://warnung.bund.de/m/S_jcy037ETGT - Herausgegeben von: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
+        "cid": null,
+        "cmas_category": null,
+        "cmas_certainty": null,
+        "cmas_message_class": null,
+        "cmas_response_type": null,
+        "cmas_severity": null,
+        "cmas_urgency": null,
+        "date": 1694682057635,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "de",
+        "plmn": "26201",
+        "priority": 0,
+        "read": 1,
+        "serial_number": 16800,
+        "service_category": 919
+    },
+    {
+        "body": "PROBEWARNUNG, BUNDESWEITER WARNTAG 2023\nDo. 14.09.2023 - 10:59 Uhr - Probewarnung - für Deutschland - Es besteht keine Gefahr. - Weitere Infos auf https://warnung.bund.de/m/S_jcy037ETGT - Herausgegeben von: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
+        "cid": null,
+        "cmas_category": null,
+        "cmas_certainty": null,
+        "cmas_message_class": null,
+        "cmas_response_type": null,
+        "cmas_severity": null,
+        "cmas_urgency": null,
+        "date": 1694681954055,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "de",
+        "plmn": "26203",
+        "priority": 0,
+        "read": 1,
+        "serial_number": 16800,
+        "service_category": 919
+    },
+    {
+        "body": "PROBEWARNUNG, BUNDESWEITER WARNTAG 2023\nDo. 14.09.2023 - 10:59 Uhr - Probewarnung - für Deutschland - Es besteht keine Gefahr. - Weitere Infos auf https://warnung.bund.de/m/S_jcy037ETGT - Herausgegeben von: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
+        "cid": null,
+        "cmas_category": -1,
+        "cmas_certainty": -1,
+        "cmas_message_class": 0,
+        "cmas_response_type": -1,
+        "cmas_severity": -1,
+        "cmas_urgency": -1,
+        "date": 1694681954439,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "de",
+        "plmn": "26203",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 16800,
+        "service_category": 4370
+    },
+    {
+        "body": "TEST ALERT, NATIONWIDE ALERT DAY 2023\nThu 2023/09/14 - 10:59 am - Test alert - for Germany - There is no danger. - Further information: https://warnung.bund.de/m/S_jcy037ETGT - Published by: Bundesamt für Bevölkerungsschutz und Katastrophenhilfe, Nationale Warnzentrale 1 Bonn",
+        "cid": null,
+        "cmas_category": -1,
+        "cmas_certainty": -1,
+        "cmas_message_class": 0,
+        "cmas_response_type": -1,
+        "cmas_severity": -1,
+        "cmas_urgency": -1,
+        "date": 1694681955711,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "en",
+        "plmn": "26203",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 16800,
+        "service_category": 4383
     }
 ]
 ```
