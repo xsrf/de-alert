@@ -1078,6 +1078,27 @@ Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screens
         "read": 1,
         "serial_number": 16656,
         "service_category": 4372
+    },
+    {
+        "body": "Dies ist ein Test für das Cell-Broadcast Monitoring mit WSQM. Es besteht keine Gefahr. Bitte ignorieren Sie diese Test-Nachricht!",
+        "cid": null,
+        "cmas_category": -1,
+        "cmas_certainty": -1,
+        "cmas_message_class": 4,
+        "cmas_response_type": -1,
+        "cmas_severity": -1,
+        "cmas_urgency": -1,
+        "date": 1748694918317,
+        "etws_warning_type": null,
+        "format": 1,
+        "geo_scope": 1,
+        "lac": null,
+        "language": "de",
+        "plmn": "",
+        "priority": 3,
+        "read": 1,
+        "serial_number": 29312,
+        "service_category": 4380
     }
 ]
 ```
