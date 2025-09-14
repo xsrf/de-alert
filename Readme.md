@@ -131,6 +131,8 @@ Empfangene CellBroadcast / EU-Alert Meldungen
 ---------------------------------------------
 Folgende CellBroadcasts habe ich mittlerweile aufgeschnappt und entweder Screenshots gemacht und/oder auf gerooteten Geräten die CellBroadcasts direkt vom Handy aus `%appdata%/com.android.cellbroadcastreceiver/databases/cell_broadcasts.db` gezogen.
 
+Siehe auch [CellBroadcast-Tests.md](CellBroadcast-Tests.md)
+
 
 ```json
 [
