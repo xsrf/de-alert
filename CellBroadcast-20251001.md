@@ -97,6 +97,7 @@ Auch nicht unrelevant ist, dass mir bisher bei jedem Warntag (und das ist hier i
 - Ruhig früher auslösen - afaik war dies der erste Einsatz des Systems in München überhaupt
 - Das BBK sollte die Kategorien der Warnmeldungen in allen Systemen angleichen
 - Meldungen sollten konkrete Inhalte und grundlegende Formatierung enthalten, weniger (technische) Metainformationen
+- Meldungslink muss nach der Meldung gültig bleiben!
 
 Vorschlag:
 > ⚠️ Gefahreninformation
