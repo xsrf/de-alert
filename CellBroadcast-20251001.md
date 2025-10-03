@@ -11,16 +11,14 @@ Medieninformationen hierzu:
 ## Die Meldung
 Die Meldung erfolgte als DE-Alert Level 2 "Extreme Gefahr" via Message ID 4372 (de) und 4385 (en) in der Region München mit folgendem Wortlaut:
 
-```
-⚠️ Extreme Gefahr
+> ⚠️ Extreme Gefahr
+> 
+> GEFAHRENMITTEILUNG, MITTEL Mi. 01.10.2025 - 11:04 Uhr - Achtung! Amtliche Warnmeldung - für München - Warnung - Informieren Sie sich in bekannten Warnmedien. - Weitere Infos auf https://warnung.bund.de/m/UC4QE9kVs6gi - Herausgegeben von: Integrierte Leitstelle München
 
-GEFAHRENMITTEILUNG, MITTEL Mi. 01.10.2025 - 11:04 Uhr - Achtung! Amtliche Warnmeldung - für München - Warnung - Informieren Sie sich in bekannten Warnmedien. - Weitere Infos auf https://warnung.bund.de/m/UC4QE9kVs6gi - Herausgegeben von: Integrierte Leitstelle München
-```
-```
-⚠️ Extreme threat
+> ⚠️ Extreme threat
+> 
+> DANGER, MEDIUM Wed 2025/10/01 - 11:04 am - Attention! Public safety alert - for München - Alert - Check the media for warning information. - Further information: https://warnung.bund.de/m/UC4QE9kVs6gi - Published by: Integrierte Leitstelle München
 
-DANGER, MEDIUM Wed 2025/10/01 - 11:04 am - Attention! Public safety alert - for München - Alert - Check the media for warning information. - Further information: https://warnung.bund.de/m/UC4QE9kVs6gi - Published by: Integrierte Leitstelle München
-```
 <img src="res/img/2025-10-01_Warnmeldung.png">
 
 ## Kritik
@@ -50,24 +48,22 @@ Die Stufe "Extreme Gefahr" wird von einigen in dieser Situation als unverhältni
 
 Das [Konzept des BBK](https://www.bbk.bund.de/DE/Warnung-Vorsorge/Warn-App-NINA/Funktion-Inhalt/Warnmeldungen/_documents/dossier_warnmeldungen-3.html?nn=20098#vt-sprg-1) kennt drei Warnstufen:
 
-```
-Extreme Gefahr
-Eine Gefahr, die sich kurzfristig erheblich auf Ihre Gesundheit, Ihr Eigentum und/oder öffentliche Infrastrukturen auswirken kann.
-
-Gefahr
-Eine Gefahr, die sich auf Ihre Gesundheit, Ihr Eigentum und/oder öffentliche Infrastrukturen auswirken kann.
-
-Gefahreninformation
-Eine zu erwartende oder bereits eingetretene Beeinträchtigung des normalen Tagesablaufs oder eine besondere Beobachtung.
-```
+> **Extreme Gefahr**  
+> Eine Gefahr, die sich kurzfristig erheblich auf Ihre Gesundheit, Ihr Eigentum und/oder öffentliche Infrastrukturen auswirken kann.
+> 
+> **Gefahr**  
+> Eine Gefahr, die sich auf Ihre Gesundheit, Ihr Eigentum und/oder öffentliche Infrastrukturen auswirken kann.
+> 
+> **Gefahreninformation**  
+> Eine zu erwartende oder bereits eingetretene Beeinträchtigung des normalen Tagesablaufs oder eine besondere Beobachtung.
 
 DE-Alert hat vier relevante Warnstufen:
-```
-DE-Alert Level 1: Notfallalarm
-DE-Alert Level 2: Extreme Gefahr
-DE-Alert Level 3: Erhebliche Gefahr
-DE-Alert Level 4: Gefahreninformation
-```
+
+> DE-Alert Level 1: Notfallalarm   
+> DE-Alert Level 2: Extreme Gefahr   
+> DE-Alert Level 3: Erhebliche Gefahr  
+> DE-Alert Level 4: Gefahreninformation  
+
 Da das BBK bzw. das System MoWaS aber nur die drei Stufen verwendet, wird DE-Alert Level 3 nicht verwendet.
 
 Die Abbildung von MoWaS Warnstufe auf DE-Alert Level gibt [TR-DE-Alert 1.1](https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Anbieterpflichten/OeffentlicheSicherheit/DEAlert/Downlaod_TR-DE-Alert_1.1_Final.pdf) in 8.26, und die Bezeichnung der Meldestufen in Anhang I4 vor.
@@ -105,13 +101,11 @@ Auch nicht unrelevant ist, dass mir bisher bei jedem Warntag (und das ist hier i
 - Meldungen sollten konkrete Inhalte und grundlegende Formatierung enthalten, weniger (technische) Metainformationen
 
 Vorschlag:
-```
-⚠️ Gefahreninformation
-
-Oktoberfest heute aufgrund potentieller Bombendrohung geschlossen! Meiden Sie den Bereich der Theresienwiese. Sehen Sie von einer Anreise ab. Beachten Sie lokale Medien.
-
-Weitere Informationen:
-https://warnung.bund.de/m/UC4QE9kVs6gi
-
-Integrierte Leitstelle München, 01.10.2025 08:00
-```
+> ⚠️ Gefahreninformation
+> 
+> Oktoberfest heute aufgrund potentieller Bombendrohung geschlossen! Meiden Sie den Bereich der Theresienwiese. Sehen Sie von einer Anreise ab. Beachten Sie lokale Medien.
+> 
+> Weitere Informationen:  
+> https://warnung.bund.de/m/UC4QE9kVs6gi
+> 
+> Integrierte Leitstelle München, 01.10.2025 08:00
