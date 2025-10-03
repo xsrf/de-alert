@@ -68,9 +68,7 @@ Da das BBK bzw. das System MoWaS aber nur die drei Stufen verwendet, wird DE-Ale
 
 Die Abbildung von MoWaS Warnstufe auf DE-Alert Level gibt [TR-DE-Alert 1.1](https://www.bundesnetzagentur.de/SharedDocs/Downloads/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Anbieterpflichten/OeffentlicheSicherheit/DEAlert/Downlaod_TR-DE-Alert_1.1_Final.pdf) in 8.26, und die Bezeichnung der Meldestufen in Anhang I4 vor.
 
-<img src="res/img/MoWaS_NINA_Warnstufen.png" height="180">
-<img src="res/img/TR-DE-Alert_1.1_Final_Warnstufen_Abbildung.png" height="180">
-<img src="res/img/TR-DE-Alert_1.1_Final_Warnstufen_Tabelle.png" height="180">
+<img src="res/img/MoWaS_NINA_Warnstufen.png" height="180"> <img src="res/img/TR-DE-Alert_1.1_Final_Warnstufen_Abbildung.png" height="180"> <img src="res/img/TR-DE-Alert_1.1_Final_Warnstufen_Tabelle.png" height="180">
 
 Dadurch ergibt sich folgende unglückliche Abbildung:
 
